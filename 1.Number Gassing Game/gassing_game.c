@@ -9,6 +9,7 @@ int main()
     printf("Enter Your Name :- ");
     scanf("%s", &name);
     printf("Hello! %s Welcome to the World Of Gassing Number", name);
+    //soumyadip maji
 
     srand(time(NULL));         // for library
     random = rand() % 100 + 1; // Genarating between 1 to 100
@@ -38,4 +39,5 @@ int main()
     printf("\n Devloped by : Santanu the coder.");
 
     return 0;
+    
 }
